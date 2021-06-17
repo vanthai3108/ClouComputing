@@ -1,5 +1,5 @@
 <?php
-	$server = "18.204.204.99";
+	$server = "52.3.220.13";
 	$user = "thai";
 	$pass = "thai";
 	$database = "cloud";
@@ -10,3 +10,5 @@
 	}
 	mysqli_set_charset($connect, 'UTF8');
 ?>
+
+
