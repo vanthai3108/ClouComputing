@@ -1,0 +1,31 @@
+.item {
+    margin-top: 20px;
+}
+.item-img {
+    margin-top: 15px;
+}
+.card-body {
+    text-align: center;
+}
+.number {
+    margin-bottom: 10px;
+}
+.number input {
+    height: 25px;
+}
+.cart {
+    text-align: center;
+}
+.main{
+    background-color: #e3eaeb;
+}
+.cart > form > div:first-child {
+    margin-bottom: 30px;
+}
+.pay {
+    margin-top: 20px;
+}
+.pay-list {
+    text-align: center;
+    margin-bottom: 20px;;
+}

@@ -1,0 +1,25 @@
+.main > div {
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.main p {
+    margin: 15px 0px;
+}
+
+
+#pro > div > p {
+    margin: 5px 0px;
+}
+
+
+
+#page {
+    margin-top: 20px;
+}
+.container {
+    background-color: #e3eaeb;
+}
+.header {
+    background-color: #27a1b9;
+}

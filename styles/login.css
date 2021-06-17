@@ -1,0 +1,54 @@
+body {
+	background-color: #607d8b;
+
+}
+
+#logo {
+	padding: 30px 0px 10px 0px;
+}
+h1 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+.form-group{
+	position: relative;
+}
+.form-group span {
+	position: absolute;
+	top: -1px;
+	left: -1px;
+	height: 47px;
+	width: 50px;
+	border-radius: 5px 0px 0px 5px;
+	background-color: #007bff;
+	border-color:#007bff;
+}
+.form-group span i {
+	background-color: #007bff;
+	margin-left: 5px;	
+
+}
+.form-group input {
+	padding-left: 60px;
+	left: 41px;
+	height: 45px;
+
+	font-size: 20px;
+}
+.form-group {
+	margin-bottom: 35px;	
+}
+.form-group #pass {
+	padding-bottom: 10px;
+}
+button {
+	margin-top: 15px;
+}
+.btn {
+	height: 45px;
+	font-size: 22px;
+}
+.register {
+	text-align: center;
+	font-size: 20px;
+}

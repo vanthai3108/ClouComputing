@@ -1,0 +1,15 @@
+*{
+    list-style: none;
+}
+.menu {
+    font-size: 20px;
+    background-color: #27a1b9;
+}
+.menu nav div ul li {
+    text-align: center;
+}
+.avatar > a > img {
+    height:50px; 
+    width:50px;
+    border-radius: 50px;
+}
