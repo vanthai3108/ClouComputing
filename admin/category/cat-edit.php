@@ -41,10 +41,10 @@
       
       <div class="row action">
         <div class="col-6">
-          <button type="submit" name="add" class="btn btn-primary btn-block">Add</button>
+          <button type="submit" name="add" class="btn btn-primary btn-block" <?php if( $catID != null ) { echo " disabled";} ?>>Add</button>
         </div>
         <div class="col-6">
-          <button type="submit" name="edit" class="btn btn-primary btn-block">Edit</button>
+          <button type="submit" name="edit" class="btn btn-primary btn-block" <?php if( $catID == null ) { echo " disabled";} ?>>Edit</button>
         </div>
 
       </div>
