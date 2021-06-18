@@ -19,7 +19,7 @@
 <?php include("../include/header-user.php"); ?>
 <div class="container">
   <div class="row justify-content-center">
-      <h4 style="margin: 10px 0px;">List of establishment</h4>
+      <h4 style="margin: 10px 0px;">List of facilities</h4>
   </div>
     <div class="row justify-content-center">
       <a href="user-edit.php" style="margin-bottom: 20px;">Add New</a>
@@ -29,7 +29,7 @@
       <h6>Username</h6>     
     </div>
     <div class="col-3">
-      <h6>Establishment Name</h6>
+      <h6>Facility Name</h6>
     </div>
     <div class="col-3">
       <h6>Address</h6>

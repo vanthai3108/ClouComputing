@@ -7,7 +7,7 @@
   <div class="collapse navbar-collapse" id="collapsibleNavbar">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="../user/user.php">Manage establishment</a>
+        <a class="nav-link" href="../user/user.php">Manage facilities</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="pro.php">Manage product</a>

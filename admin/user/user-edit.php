@@ -19,7 +19,7 @@
 <?php include("../include/header-user.php"); ?>
 <div class="container">
   <div class="row justify-content-center">
-      <h4 style="margin: 10px 0px;">Add/Edit Establishment</h4>
+      <h4 style="margin: 10px 0px;">Add/Edit Facility</h4>
   </div>
   <?php 
   $userID = $_GET['user-edit'] ?? null;
@@ -42,7 +42,7 @@
         <input type="text" class="form-control" name="Password"  value="<?php if ($userID != null){ echo "$user->Password";} ?>" required="" placeholder="Password">
       </div>
       <div class="form-group">
-        <input type="text" class="form-control" name="FullName" required="" value="<?php if ($userID != null){ echo "$user->FullName"; }?>" placeholder="Establishment name">
+        <input type="text" class="form-control" name="FullName" required="" value="<?php if ($userID != null){ echo "$user->FullName"; }?>" placeholder="Facility name">
       </div>
       <div class="form-group">
         <input type="text" class="form-control" name="PhoneNumber" required=""  value="<?php if ($userID != null){ echo "$user->PhoneNumber";} ?>" placeholder="Hotline">
