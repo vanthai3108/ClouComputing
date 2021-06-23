@@ -63,7 +63,7 @@
       <h4>$i</h4>     
     </div>
     <div class='col-1'>
-      <p class='row'><img class='col col-12' src='../images/$pro->ProductImage'></p>
+      <p class='row'><img class='col col-12' src='../Images/$pro->ProductImage'></p>
     </div>
     <div class='col-3'>
       <p>$pro->ProductName</p>     
