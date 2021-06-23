@@ -63,11 +63,11 @@ include("include/header.php");
 				$result1 = $connect->query($sql1);
 				while ($pro =  $result1->fetch_object()){
 					echo "
-                    <div class='col col-4'>
+                <div class='col col-4'>
                     <div class='row justify-content-center'>
                         <div class='card col col-11 item'>
                             <div class='row justify-content-center'>
-                                <img class='card-img-top col col-10 item-img' src='Images/$pro->ProductImage' alt='Card image'>
+                                <img class='card-img-top col col-10 item-img' src='images/$pro->ProductImage' alt='Card image'>
                             </div>
                             <div class='card-body row justify-content-center'>
                                 <h6 class='card-title'>$pro->ProductName</h6>
@@ -80,7 +80,7 @@ include("include/header.php");
                             </div>
                         </div>
                     </div>
-                    </div>
+                </div>
 					";
 
 				}
