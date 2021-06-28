@@ -1,5 +1,5 @@
 <?php
-	$server = "18.210.18.214";
+	$server = "54.236.43.60";
 	$user = "thai";
 	$pass = "thai";
 	$database = "cloud";
