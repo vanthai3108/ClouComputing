@@ -37,7 +37,7 @@
     $page = $_GET['page'] ?? 1;
     $perPage = 8;
     $offSet =($page -1) * $perPage;                    
-  $sql= "select*from category  LIMIT $perPage OFFSET $offSet";
+  $sql= "select*from category LIMIT $perPage OFFSET $offSet";
   $result=$connect->query($sql);
   while($cat=$result->fetch_object()) {
     echo"
@@ -85,7 +85,7 @@
                 echo" href='cat.php?page=$page' ";
               ?> 
                 >Previous</a>
-              </li>             
+              </li>
             <?php
                         $sql3 = "select count(*) as Total from category";
                         $result3 = $connect->query($sql3);   
