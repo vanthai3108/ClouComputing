@@ -216,7 +216,7 @@ if (isset($_GET["add_cart"])) {
         echo "<script>alert('You need to be logged in to perform this action')</script>";
     }
     }				
-    
+   
 ?>
 
 </body>
